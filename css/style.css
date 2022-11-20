@@ -1,20 +1,27 @@
+.completo{
+    margin: auto;
+    width: 600px;
+    margin-top: 5px;
+    border: 1px solid red;
+    
+}
 .esquerda{
-    width: 400px;
-    border: 1px solid black;
-    background-image: radial-gradient(rgb(5, 189, 182), rgba(4, 189, 192))
+    width: 200px;
+    background-image: radial-gradient(rgb(5, 189, 182), rgba(4, 189, 192));
+    min-width: 200px;
 }
 .esquerda #foto-topo{
-
-    margin-top: 10px;
+  padding-top: 10px;
+    display: block;
+    margin: auto;
     width: 100px;
-    border-radius: 100%;
-    border: 2px solid white;
 }
 
 #cabecalho{
     padding-top: 10px;
 }
 #cabecalho p{
+    text-align: center;
     font-size: 1.0em;
     color: white;
 }
@@ -27,8 +34,8 @@
     box-shadow: 5px 5px 10px black;
 }
 
-#texto{
-    font-size: 1.5em;
+#texto p{
+    font-size: 0.8em;
     text-align: start;
     color: white;
 }
@@ -44,17 +51,17 @@
     font-size: 0.7em;
 }
 
-#icones-contatos{
+.icones{
     float: left;
     color: white;
 }
-#icones-contatos p{
+.icones p{
     text-align: left;
     margin-top: -10px;
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 
-#icones-contatos p i{
+.icones p i{
     padding-right: 28px;
 }
 
@@ -62,3 +69,9 @@
     font-size: 1.2em;
     color: rgb(92, 72, 72);
 }
+#hobby{
+    clear: both;
+    font-size: 1.2em;
+    color: rgb(92, 72, 72);
+}
+
