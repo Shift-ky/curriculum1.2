@@ -1,0 +1,64 @@
+.esquerda{
+    width: 400px;
+    border: 1px solid black;
+    background-image: radial-gradient(rgb(5, 189, 182), rgba(4, 189, 192))
+}
+.esquerda #foto-topo{
+
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+#cabecalho{
+    padding-top: 10px;
+}
+#cabecalho p{
+    font-size: 1.0em;
+    color: white;
+}
+
+#divisor img{
+    display: block;
+    margin: -15px 0 0 0;
+    height: 6px;
+    padding-top:-15px ;
+    box-shadow: 5px 5px 10px black;
+}
+
+#texto{
+    font-size: 1.5em;
+    text-align: start;
+    color: white;
+}
+#profile{
+    padding-left: 5px;
+    color: rgb(92, 72, 72);
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+#profile #texto{
+    text-align: left;
+    margin-top: -10px;
+    font-size: 0.7em;
+}
+
+#icones-contatos{
+    float: left;
+    color: white;
+}
+#icones-contatos p{
+    text-align: left;
+    margin-top: -10px;
+    font-size: 0.9em;
+}
+
+#icones-contatos p i{
+    padding-right: 28px;
+}
+
+.top p{
+    font-size: 1.2em;
+    color: rgb(92, 72, 72);
+}
