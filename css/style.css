@@ -1,14 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .completo{
     margin: auto;
     width: 600px;
     margin-top: 5px;
-    border: 1px solid red;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.268);
+   
     
 }
 .esquerda{
     width: 200px;
     background-image: radial-gradient(rgb(5, 189, 182), rgba(4, 189, 192));
     min-width: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.268);
 }
 .esquerda #foto-topo{
   padding-top: 10px;
@@ -75,3 +82,33 @@
     color: rgb(92, 72, 72);
 }
 
+.direita{
+    margin-left: 10px;
+    
+}
+#trabalhos-recentes{
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+#trabalhos-recentes h3{
+    font-size: 1.2em;
+}
+#trabalho-texto{
+    margin-left: 30px;
+    font-size: 0.8em;
+    margin-right: 30px;
+}
+
+.direita{
+    margin-left: 5px;
+  
+}
+.divisor{
+    margin-top: -20px;
+    opacity: 30%;
+    margin-right: 5px;
+    margin-left: -25px;
+    background: url(../imagens/linha.png);
+
+}
